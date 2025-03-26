@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Noah's Games</title>
+    <meta charset="UTF-8" />
+    <title>Noah's Arcade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      body { font-family: Arial; background: #111; color: white; text-align: center; padding: 40px; }
-      a { color: #00ffcc; text-decoration: none; font-size: 24px; display: block; margin-top: 20px; }
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        color: white;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 24px;
+        color: #00ffcc;
+        text-decoration: none;
+        background: #222;
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: background 0.3s ease;
+      }
+
+      a:hover {
+        background: #333;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 20px;
+        font-size: 14px;
+        color: #666;
+      }
     </style>
   </head>
   <body>
     <h1>🎮 Noah's Arcade</h1>
-    <a href=<a href="https://codepen.io/Noah-Kerben/full/QwWBrJw" target="_blank">Play Dodge the Blocks</a>
+    <a href="https://codepen.io/noahkerben/full/qBxyWJg" target="_blank">
+      ▶️ Play Dodge the Blocks
+    </a>
+
+    <footer>More games coming soon...</footer>
   </body>
 </html>
